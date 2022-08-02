@@ -1,0 +1,8 @@
+
+<app-prodotto *ngFor="let p of prodotti" [prodotto]="p"></app-prodotto>
+
+<div class="modal" *ngIf="lastAdded">
+    Hai aggiunto al carrello
+    {{lastAdded.costo}}
+</div>
+
